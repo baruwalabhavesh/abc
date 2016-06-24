@@ -1,0 +1,5 @@
+/*** ios device css ***/
+.leftside .location1{float: left;height: 650px;outline-color: rgba(0, 0, 0, 0);width: 405px;overflow:auto !important;}
+.leftside .location1 {float: left; height: 650px;outline-color: rgba(0, 0, 0, 0);overflow-y: scroll;width: 415px;overflow-x: hidden;}
+.location_tool .loca_mile_offers{margin-top: 6px;position:inherit;}
+/*** ios device css ***/

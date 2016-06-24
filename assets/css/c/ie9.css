@@ -1,0 +1,30 @@
+
+
+ /* IE 9 */ 
+@media all and (monochrome:0) { 
+
+.warning_inner_div{float: left; height: 40px;width: 35px;}
+.div_msg{ margin-left:10px!important;}
+.socila-fb{ padding:0px\9!important;}
+.socila-tw { padding:0px\9!important; }
+.registerdiv  form { float: left\9;}
+#footer {clear: both\9;}
+#contentContainer{background-color:#ffffff\9;}
+.merchan{padding:10px 45px\9!important;}
+.main-regi  div  #footer .merchan{padding: 10px 35px;}
+.apps-store img,.google-play img{border:0\9;}
+#dealslist div.offersexyellow div.percetage{text-overflow: ellipsis\9!important;}
+#menuContainer {  background:#3e98ef\9!important;}
+.div-rap { margin-right: 162px\9;}
+.logindiv #login_frm{width:100%\9!important;}
+#cssmenu .has-sub  { height: 25px\9;}
+#cssmenu .has-sub  a {height: 22px\9; }
+img{border:0px!important;}
+#cssmenu .has-sub ul {top:24px\9!important;}
+#cssmenu .has-sub ul li { border-left:0px;  }
+.ratinn_box .orange ul {line-height:11px\9;height:30px\9; }
+.ratinn_box .orang-one-fourt ul {line-height:12px\9;}
+.locationdetailpage .location_detail .up_arrow{top:-13px\9;}  
+.common.mydeals .zipCodeDiv2 #zip {width: 225px\9;}
+       
+} 

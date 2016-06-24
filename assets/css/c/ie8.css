@@ -1,0 +1,31 @@
+img{border:none;}
+
+ /* IE 8 */ 
+@media all {
+	
+.registerdiv  form{float: left\0/;}
+#footer{clear:both\0/;}
+#contentContainer{background-color:#ffffff\0/;}
+.merchan{padding:10px 43px\0/!important;}
+.registerdiv-regi{ margin-bottom:10px\0/;}
+.apps-store img,.google-play img{border:0\0/;}
+#dealslist div.offersexyellow div.percetage{text-overflow: ellipsis\0/!important;}
+#print_coupon_back {padding:0 15px\0/;}
+#menuContainer {  background:#3e98ef\0/!important;}
+#zipCodeDiv2 { background:#fe8710;\0/}
+#cssmenu { margin-top:0px;}
+.tableMerchant.dataTable { border:none!important\0/;}
+.activateForm {padding-top:10px!important\0/;}
+#cssmenu .has-sub  { height: 25px\0/;}
+#cssmenu .has-sub  a {height: 22px\0/; } 
+.pop-display {margin-top:-1px\0/!important; }
+.pop-display { border-top: 1px solid #999999\0/!important;}
+.arrow-up {background:url(images/arrow_sans_up.png)\0/!important; 
+.in-text-put input {width: 100%\0/!important;}
+.registerdiv .in-text-put {width:200px;\0/!important;}
+img {border: 0\0/!important;}
+.zipCodeDiv2 input.mybtnclass{ margin-left:15px\0/;}
+ .common.mydeals .zipCodeDiv2 #zip {width: 225px\0/;}      
+
+}
+

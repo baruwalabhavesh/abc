@@ -1,0 +1,12 @@
+#save_order{
+	margin:0px 10px;
+}
+.grid_container{
+	border: 1px solid #ccc;
+	box-shadow: 0px 0px 2px #ccc;
+	min-height: 250px;
+	border-radius: 5px;
+	padding:10px;
+	margin-top: 20px;
+}
+

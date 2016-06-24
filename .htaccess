@@ -1,0 +1,77 @@
+#Order deny,allow
+#Deny from all
+Allow from all
+Allow from 127.0.0.1
+Allow from 65.93.215.163
+Allow from 67.228.220.60
+Allow from 74.62.210.90
+Allow from 67.228.208.35
+Allow from 202.47.116.116
+Allow from 70.29.34.175
+Allow from 166.170.51.244
+#Allow from 183.82.75.208
+
+# ##############################################################################
+# # URL Rewriting                                   							#
+# 												                                #
+# ##############################################################################
+
+RewriteEngine On
+
+
+# Resolve .php file for extensionless php urls
+RewriteRule ^([^/.]+)$ $1.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule  ^location/(.*)-(.*).html?$ location_detail.php?id=$2 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^campaign/(.*)/(.*)/(.*)?$ campaign.php?campaign_id=$2&l_id=$3 [QSA,L]
+RewriteRule ^(.*)/(.*)-(.*)-(.*).html?$ campaign.php?campaign_id=$3&l_id=$4 [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^(.*)$ index.php?load=$1 [QSA,L]
+
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 week"
+ExpiresByType image/jpeg "access plus 1 week"
+ExpiresByType image/gif "access plus 1 week"
+ExpiresByType image/png "access plus 1 week"
+ExpiresByType text/css "access plus 1 week"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+
+# Web fonts
+ExpiresByType application/font-woff                 "access plus 1 month"
+ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+ExpiresByType application/x-font-ttf                "access plus 1 month"
+ExpiresByType font/opentype                         "access plus 1 month"
+ExpiresByType image/svg+xml                         "access plus 1 month"
+
+</IfModule>
+## EXPIRES CACHING ##
+
+#<IfModule mod_headers.c>
+#   Header add Access-Control-Allow-Origin: "https://www.scanflip.com"
+#  Header add Access-Control-Allow-Origin: "http://www.scanflip.com/"
+#</IfModule>
+
+# Block access to directories without a default document.
+# You should leave the following uncommented, as you shouldn't allow anyone to
+# surf through every directory on your server (which may includes rather private
+# places such as the CMS's directories).
+
+<IfModule mod_autoindex.c>
+    Options -Indexes
+</IfModule>
+

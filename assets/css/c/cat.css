@@ -1,0 +1,54 @@
+.dataTables_info {
+width: 60%;
+display: none;
+}
+.dataTables_wrapper{
+	width: 100%;
+}
+
+.paging_full_numbers a {
+margin: 0 5px;
+cursor:pointer;
+}
+.paging_full_numbers .first:before{
+	content: "first";
+}
+.paging_full_numbers .previous:before{
+	content: "previous";
+}
+
+.paging_full_numbers .next:before{
+	content: "next";
+}
+.paging_full_numbers .last:before{
+	content: "last";
+}
+.paging_full_numbers .paginate_button{
+	color: #333;
+}
+.paging_full_numbers .paginate_button_disabled{
+	color: #aaa;
+}
+
+.dataTables_length {
+display:none;
+}
+element.style {
+visibility: hidden;
+}
+.dataTables_processing {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 250px;
+height: 30px;
+margin-left: -125px;
+margin-top: -15px;
+padding: 14px 0 2px 0;
+border: 1px solid #ddd;
+text-align: center;
+color: #999;
+font-size: 14px;
+background-color: white;
+z-index:999;
+}

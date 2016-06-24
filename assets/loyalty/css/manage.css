@@ -1,0 +1,68 @@
+
+.loyalty_Card_maincontainer{
+  margin: auto;
+  width: 98%;
+  min-height: 200px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*border-radius: 5px;
+  border: 1px solid#ccc;
+  box-shadow: 0 0 10px #ccc;*/
+  padding: 15px;
+}
+#card_table {border:1px solid #aaaaaa; border-radius:4px;}
+#card_table th {
+  background-color: #eaeaea;
+  color: #333;
+}
+#card_table tr:nth-child(even) {background-color: rgba(222,222,222,0.4);}
+input,button,label{
+  margin: 5px 0;
+}
+.revealable_form{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #ccc;
+  margin:10px 0;
+  display: none;
+
+}
+.revealable_form input[type=checkbox] {transform:scale(1.25);}
+.hint{
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.w150{
+  width: 150px;
+}
+input[type=radio]{
+  width: 20px;
+  height: 15px;
+  margin-top: 20px;
+}
+#header-title {
+    
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+
+#card_table_info {
+    display: none;
+}
+.alert {
+    margin-top: 10px;
+}
+.alert_card_title,.alert_html,.alert_length,.alert_keyword,.alert_category{display:none;}
+.dropdown-menu {
+    cursor: pointer;
+}
+
+.loyalty_Card_maincontainer .btn.btn-default.btn-sm.dropdown-toggle {background: rgba(0, 0, 0, 0);  border: 0 none;  box-shadow: none; color: #0066ff; padding: 0;}
+.loyalty_Card_maincontainer .dropdown-menu {box-shadow: none; border-radius: 0; min-width: 80%;}
+.loyalty_Card_maincontainer .dropdown-menu a {color: #000 !important; font-size: 12px; padding: 2px 10px;}
+.loyalty_Card_maincontainer .dropdown-menu a:hover {color: #0066ff !important; background:none;}
+
+#notification{background: none repeat scroll 0 0 #3d3d3d;border: 1px solid #ccc;border-radius: 3px;box-shadow: 0 0 10px #cbcbcb;color: white;display: none;left: 520px;opacity: 0.9;padding: 20px 10px;position: fixed;top: 50px;z-index: 1;}

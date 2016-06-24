@@ -1,0 +1,5 @@
+
+
+/*safari css*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {  .percetage a { height:20px!important; text-overflow:ellipsis!important; display:block;white-space: nowrap!important;overflow: hidden!important;}}
+/*safari css close*/

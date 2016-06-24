@@ -1,0 +1,17 @@
+
+
+
+/* for ie 10 windows 8 */
+::-ms-clear {
+    display: none;
+ }
+::-ms-reveal{
+    display: none;
+}
+/* for ie 10 */ 
+
+/* IE 10 CSS */
+@media all and (-ms-high-contrast: none) {
+.fancybox-inner .Class_for_activation {height:344px;}
+}
+img{border:none;}
